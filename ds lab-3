@@ -1,0 +1,15 @@
+//use structures in c to represent and mainpulate student records ..
+#include<stdio.h>
+struct student{
+    char name[20];
+    int roll;
+    float cgpa;
+};
+int main(){
+    struct student s1={"Nasrullah",1173,3.61};
+    printf("The name of student1 is %s\nRoll number is %d\nCgpa is %.2f",s1.name,s1.roll,s1.cgpa);
+    return 0;
+    
+    
+}
+
